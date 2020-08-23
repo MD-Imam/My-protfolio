@@ -285,10 +285,10 @@
 
  // //////////////////////////////preloader part///////////////////////
 
- $(window).load(function () {
+//  $(window).load(function () {
 
-   $(".preloader").fadeOut("slow");
- });              //  .delay(2000)
+//    $(".preloader").fadeOut("slow");
+//  });              //  .delay(2000)
 
 
   // // ======================== wow js========================
