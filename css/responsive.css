@@ -1,521 +1,538 @@
-@media (min-width:320px) and (max-width:575px){
-    nav{
-        padding: 8px 0 !important;
-       
+@media (min-width:320px) and (max-width:575px) {
+
+    /* navbar part */
+    nav {
         top: 0;
-        
     }
-    nav .navbar-brand {
-        border: 0;
-        background: transparent;
+
+    .navbar-nav {
+        background: rgba(119, 119, 119, .8);
+    }
+
+    nav button i {
+        color: rgba(247, 0, 104);
+    }
+
+    header nav .navbar-brand h2 {
+        font-size: 23px;
+    }
+
+    header nav ul li a {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    header nav ul li .active:after {
+        height: 42px;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header nav ul li:hover a::after {
+        height: 42px;
+        width: 100%;
+      
+    }
+
+    header nav ul li a::after {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        top: -1px;
+        background: rgba(247, 0, 104, .9);
+    }
+
+    header nav ul li .active::after {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        top: -1px;
+        background: rgba(247, 0, 104, .9);
+    }
+
+    /* banner part */
+
+
+    #banner-part .banner {
+        background-position: center;
+        height: 440px;
+    }
+    #banner-part .banner .text p {
+       display: none;
+      }
+    #banner-part .banner .text .text1 {
+        padding-top: 110px;
+        font-size: 17px;
+        width: 188px;
+        height: 255px;
+        line-height: 30px;
+    }
+
+    #banner-part .tuna {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left:12px ;
+        padding: 3px 7px;
+        /* margin-right: 50px; */
+    }
+
+    #banner-part .bst-button {
+        width: 200px;
+        margin-left: auto;
+        margin-right: 0;
+        display: flex;
+        /* flex-direction: column; */
+
+    }
+
+    #banner-part .banner .down i {
+        font-size: 60px;
+        animation: fadeIn .9s infinite linear;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            top: 60%;
+            opacity: 0;
+        }
+
+        100% {
+            top: 90%;
+            opacity: 1;
+        }
+    }
+
+    /*  my services part */
+
+    #ourservice .over {
+        padding-bottom: 130px;
+    }
+
+    /*  my skkilled part */
+
+    #my-skills .left .line-jq {
+        margin-top: 20px;
+    }
+
+    #my-skills .right .img {
+        height: 300px;
+    }
+
+    /* protfolio part */
+
+    .portfolio-filter ul li {
+        margin-left: 10px;
+    }
+
+    /* testimonial part */
+    .testimonial_section .slider_item h2 {
+        margin-top: 48px;
+    }
+
+    .testimonial_section P {
         width: auto;
-        height: auto;
-        line-height:0;
-        position: static;
-        clip-path:polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+        line-height: 23px;
     }
-    nav .navbar-brand img{
-        width: 85%;
+
+    .testimonial_section .over {
+        height: 625px;
     }
-    nav button i{
-        color: #fff;
+
+    /* counter-part start */
+    .totl .lay .client .it h3 {
+        font-size: 30px;
     }
-    nav ul{
+
+    .totl .lay .client .it p {
+        font-size: 13px;
+    }
+
+    .totl .lay .client .it {
+        /* width: 100%; */
+        margin-top: 20px;
+
+    }
+
+    /* counter-part end */
+
+
+    /* footer-part start */
+
+    .contact_section h2 {
+        margin-top: 40px;
+    }
+
+    .contact_section form .mail {
+        margin-top: 20px;
+    }
+
+
+    #footer-part .footer .copyright .faruk {
         text-align: center;
-        background: rgba(0, 0, 0.4);
+    }
 
-    }
-    nav ul a{
-        margin-left: 0 !important;
-    }
-    .fixed{
-        padding: 8px 0 !important;
-    }
-    .fixed .navbar-brand {
-        background: transparent;
+    #footer-part .footer .copyright p {
         text-align: center;
-        position: static;
-        height:auto !important;
     }
-    .fixed .navbar-brand img {
-        margin-top: 0px;
+
+    #footer-part .footer .copyright .faruk .border-lft,
+    #footer-part .footer .copyright .faruk a i {
+        border: 0;
     }
- /* banner-part start */
- #banner-part .banner .overlay h3{
-     font-size:25px ;
-     
- }
- #banner-part .banner .overlay h1{
-     font-size:50px;
-     margin: 11px 0;
- }
- #banner-part .banner .overlay .text{
-     width: auto;
- }
- #banner-part .banner .overlay p{
-     width: auto;
-     position: static;;
- }
- #banner-part .banner .overlay{
-     text-align: center;
-     padding-top: 110px;
-     padding-bottom: 100px;
- }
- #banner-part .banner .overlay h3::before{
-     display: none;
- }
- #banner-part .banner .overlay h3::after{
-     display: none;
- }
- 
-#banner-part .banner .overlay h1::before{
-    display: none;
-}
-#banner-part .banner .overlay h1::after{
-    display: none;
-}
+          /* back to top */
 
-#banner-part .banner .overlay p::before{
-    display: none;
-}
-#banner-part .banner .overlay p::after{
-    display: none;
-}
-
- /* banner-part end */
-
-
- /* about-part start */
- 
- #about-part {
-     padding-top: 25px;
- }
-#about-part .title{
-    margin-top: 40px;
-}
-#about-part .text p{
-    width: auto;
-}
-#about-part .img{
-    margin-top: 30px;
-}
-
- /* about-part end */
- /* counter-part start */
- #counter-part .overlay h2{
-     font-size: 25px;
- }
- #counter-part .overlay p{
-     font-size: 13px;
- }
- #counter-part .overlay .belta{
-     margin-right: 0;
- }
- #counter-part .overlay .delta{
-     margin-left: 0;
- }
- /* counter-part end */
- /* class-part stqrt */
-
- #class-part .colorful-tab-wrapper{
-    padding: 0px;
- }
- #class-part .colorful-tab-menu{
-    flex-direction:row;
- }
- #class-part  .colorful-tab-menu-item a{
-     padding: 20px;
-     font-size: 14px;
- }
- #class-part .colorful-tab-content ul li:hover {
-    background: #e23e38;
-    transform: scale(1.03);
-}
-#class-part .colorful-tab-content ul li .petter{
-    font-size: 12px;
-}
- #class-part .colorful-tab-content ul li{
-     width: 49%;
- }
- /* class-part end */
- /* sponser-part start */
- #sponsor-part .prev{
-     left: -12px;
- }
- #sponsor-part .next{
-     right: -12px;
- }
- /* sponser-part end */
- /* footer-part start */
- #footer-part .img img {
-    width: 23%;
-}
-#footer-part .twit p{
-    width: auto;
-}
- /* footer-part end */
- 
+         .btop{
+            bottom: 5px;
+            right: 10px;
+          }
 
 }
 
 
 
-@media (min-width:576px) and (max-width:767px){
-    nav{
-        padding: 8px 0 !important;
-       
+@media (min-width:576px) and (max-width:767px) {
+
+    /* navbar part */
+    nav {
         top: 0;
-        
     }
-    nav .navbar-brand {
-        border: 0;
-        background: transparent;
-        width: auto;
-        height: auto;
-        line-height:0;
-        position: static;
-        clip-path:polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
+
+    .navbar-nav {
+        background: rgba(119, 119, 119, .8);
     }
-    nav .navbar-brand img{
-        width: 85%;
+
+    nav button i {
+        color: rgba(247, 0, 104);
     }
-    nav button i{
-        color: #fff;
+
+    header nav .navbar-brand h2 {
+        font-size: 25px;
     }
-    nav ul{
+
+    header nav ul li a {
+        margin-right: 0;
         text-align: center;
-        background: rgba(0, 0, 0.4);
-
     }
-    nav ul a{
-        margin-left: 0 !important;
+
+    header nav ul li .active:after {
+        height: 42px;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
-    .fixed{
-        padding: 8px 0 !important;
+
+    header nav ul li:hover a::after {
+        height: 42px;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
     }
-    .fixed .navbar-brand {
-        background: transparent;
-        text-align: center;
-        position: static;
-        height:auto !important;
+
+    header nav ul li a::after {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        top: -1px;
+        background: rgba(247, 0, 104, .9);
     }
-    .fixed .navbar-brand img {
-        margin-top: 0px;
+
+    header nav ul li .active::after {
+        top: -1px;
+        background: rgba(247, 0, 104, .9);
     }
- /* banner-part start */
- #banner-part .banner .overlay h3{
-     font-size:25px ;
-     
- }
- #banner-part .banner .overlay h1{
-     font-size:50px;
-     margin: 11px 0;
- }
- #banner-part .banner .overlay .text{
-     width: auto;
- }
- #banner-part .banner .overlay p{
-     width: auto;
-     position: static;;
- }
- #banner-part .banner .overlay{
-     text-align: center;
-     padding-top: 110px;
-     padding-bottom: 100px;
- }
- #banner-part .banner .overlay h3::before{
-     display: none;
- }
- #banner-part .banner .overlay h3::after{
-     display: none;
- }
- 
-#banner-part .banner .overlay h1::before{
-    display: none;
-}
-#banner-part .banner .overlay h1::after{
-    display: none;
-}
 
-#banner-part .banner .overlay p::before{
-    display: none;
-}
-#banner-part .banner .overlay p::after{
-    display: none;
-}
-
- /* banner-part end */
+    /* banner part */
 
 
- /* about-part start */
- #about-part .img{
-    margin-top: 30px;
-}
-#about-part .title{
-    margin-top: 40px;
-}
-#about-part .text p{
-    width: auto;
-}
-#about-part {
-    padding-top: 25px;
-}
- /* about-part end */
- /* counter-part start */
- #counter-part .overlay h2{
-     font-size: 25px;
- }
- #counter-part .overlay p{
-     font-size: 13px;
- }
- #counter-part .overlay .belta{
-     margin-right: 0;
- }
- #counter-part .overlay .delta{
-     margin-left: 0;
- }
- /* counter-part end */
- /* class-part stqrt */
+    #banner-part .banner {
+        background-position: center;
+        height: 550px;
+    }
 
- #class-part .colorful-tab-wrapper{
-    padding: 0px;
- }
- #class-part .colorful-tab-menu{
-    flex-direction:row;
- }
- #class-part  .colorful-tab-menu-item a{
-     padding: 20px 15px;
-     font-size: 14px;
- }
- #class-part .colorful-tab-content ul li:hover {
-    background: #e23e38;
-    transform: scale(1.03);
-}
-#class-part .colorful-tab-content ul li .petter{
-    font-size: 12px;
-}
- #class-part .colorful-tab-content ul li{
-     width: 49%;
- }
- /* class-part end */
- /* sponser-part start */
- #sponsor-part .prev{
-     left: -12px;
- }
- #sponsor-part .next{
-     right: -12px;
- }
- /* sponser-part end */
- /* footer-part start */
- #footer-part .img img {
-    width: 23%;
-}
-#footer-part .twit p{
-    width: auto;
-}
- /* footer-part end */
- 
- /* pricing part start */
-
- #membership .item h1{
-    font-size: 14px;
- }
- #membership .item .price .overlay p span{
-     font-size: 40px;
- }
- #membership .item .price .overlay p{
-     font-size: 16px;
- }
-#membership .item ul li{
-    padding-top: 15px;
-}
- /* pricing part end */
-}
-
-
-
-@media (min-width:768px) and (max-width:991px){
-    nav{
-        padding: 8px 0 !important;
+    #banner-part .banner .text .text1 {
+        padding-top: 170px;
+        font-size: 20px;
+        width: 285px;
        
-        top: 0;
+        line-height: 30px;
+    }
+    #banner-part .banner .text p {
         
+        line-height: 23px;
+        letter-spacing: 0px;
+       
+        width: 280px;
+        
+      }
+      #banner-part .banner .text p span{
+        display: none;
+      }
+    #banner-part .tuna {
+        font-size: 12px;
+        margin-top: 40px;
+        padding: 3px 9px;
     }
-    nav .navbar-brand {
-        border: 0;
-        background: transparent;
+
+    #banner-part .bst-button {
+
+        margin-left: auto;
+        margin-right: 77px;
+
+
+    }
+
+    #banner-part .banner .down i {
+        font-size: 60px;
+        animation: fadeIn .9s infinite linear;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            top: 60%;
+            opacity: 0;
+        }
+
+        100% {
+            top: 90%;
+            opacity: 1;
+        }
+    }
+
+    /* my skill part */
+
+    #my-skills .right .img {
+        height: 350px;
+    }
+
+    #my-skills .right .img img {
+        width: 100%;
+    }
+
+    #my-skills .left .progressbar {
+        margin-bottom: 25px;
+    }
+
+    /* my portfolio part */
+
+    .portfolio-filter ul li {
+        font-size: 12px;
+        padding: 9px;
+        margin-left: 10px;
+    }
+
+    /* my testimonial part  */
+
+    .testimonial_section P {
         width: auto;
-        height: auto;
-        line-height:0;
-        position: static;
-        clip-path:polygon(0% 0, 100% 0, 100% 100%, 0% 100%);
     }
-    nav .navbar-brand img{
-        width: 85%;
+
+    /* counter-part start */
+
+    .totl .lay .client .it h3 {
+        font-size: 30px;
     }
-    nav button i{
-        color: #fff;
+
+    .totl .lay .client .it {
+
+        margin-top: 20px;
+
     }
-    nav ul{
+    .totl .lay .client .it p{
+        letter-spacing: 0;
+        font-size: 13px;
+    }
+
+    /* my footer part */
+
+    .contact_section h2 {
+        margin-top: 40px;
+    }
+
+    .contact_section form .mail {
+        margin-top: 20px;
+    }
+
+
+    #footer-part .footer .copyright .faruk {
         text-align: center;
-        background: rgba(0, 0, 0.4);
+    }
 
-    }
-    nav ul a{
-        margin-left: 0 !important;
-    }
-    .fixed{
-        padding: 8px 0 !important;
-    }
-    .fixed .navbar-brand {
-        background: transparent;
+    #footer-part .footer .copyright p {
         text-align: center;
-        position: static;
-        height:auto !important;
-    }
-    .fixed .navbar-brand img {
-        margin-top: 0px;
     }
 
+    #footer-part .footer .copyright .faruk .border-lft,
+    #footer-part .footer .copyright .faruk a i {
+        border: 0;
+    }
 
+      /* back to top */
 
- /* about-part start */
+      .btop{
+        bottom: 5px;
+        right: 10px;
+      }
 
-#about-part .title{
-    margin-top: 40px;
-}
-#about-part .text p{
-    width: auto;
-}
-#about-part {
-    padding-top: 25px;
-}
-#about-part .img{
-    margin-top: 30px;
-}
- /* about-part end */
- /* counter-part start */
- #counter-part .overlay h2{
-     font-size: 25px;
- }
- #counter-part .overlay p{
-     font-size: 13px;
- }
- #counter-part .overlay .belta{
-     margin-right: 0;
- }
- #counter-part .overlay .delta{
-     margin-left: 0;
- }
- /* counter-part end */
- /* class-part stqrt */
-
- #class-part .colorful-tab-wrapper{
-    padding: 0px;
- }
- #class-part .colorful-tab-menu{
-    flex-direction:row;
- }
- #class-part  .colorful-tab-menu-item a{
-     padding: 20px;
-     font-size: 14px;
- }
- #class-part .colorful-tab-content ul li:hover {
-    background: #e23e38;
-    transform: scale(1.03);
-}
-#class-part .colorful-tab-content ul li .petter{
-    font-size: 13px;
-    
-}
- #class-part .colorful-tab-content ul li{
-     width: 19.4%;
-     padding: 10px 0;
- }
- /* class-part end */
- /* sponser-part start */
- #sponsor-part .prev{
-     left: -12px;
- }
- #sponsor-part .next{
-     right: -12px;
- }
- /* sponser-part end */
- /* footer-part start */
- #footer-part .img img {
-    width: 23%;
-}
-#footer-part .twit p{
-    width: auto;
-}
-
-#footer-part .copy{
-    margin-top: 30px;
-}
- /* footer-part end */
- 
-
+    /* pricing part end */
 }
 
 
 
-@media (min-width:992px) and (max-width:1199px){
-  
-/* navbar part start */
 
-nav ul li a {
-  
-    margin-left: 2px;
+
+@media (min-width:768px) and (max-width:991px)  {
+
+    /* navbar part */
    
-    letter-spacing: .5px;
-    
+
+    .navbar-nav {
+        background: rgba(119, 119, 119, .8);
+    }
+
+    nav button i {
+        color: rgba(247, 0, 104);
+    }
+
+    header nav .navbar-brand h2 {
+        font-size: 25px;
+    }
+
+    header nav ul li a {
+        margin-right: 0;
+        text-align: center;
+    }
+
+    header nav ul li .active:after {
+        height: 42px;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header nav ul li:hover a::after {
+        height: 42px;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    header nav ul li a::after {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+        top: -1px;
+        background: rgba(247, 0, 104, .9);
+    }
+
+    header nav ul li .active::after {
+        top: -1px;
+        background: rgba(247, 0, 104, .9);
+    }
+
+    /* banner part */
+
+
+    #banner-part .banner {
+        background-position: center;
+        height: 600px;
+    }
+
+    #banner-part .banner .text .text1 {
+        padding-top: 150px;
+        font-size: 24px;
+        width: 368px;
+       
+        line-height: 38px;
+    }
+    #banner-part .banner .text p {
+        width: 368px;
+        line-height: 24px;
+      }
+      #banner-part .tuna {
+        font-size: 12px;
+        margin-top: 40px;
+        padding: 3px 9px;
+    }
+
+    #banner-part .bst-button {
+        margin-left: auto;
+        margin-right: 160px;
+    }
+
+    #banner-part .banner .down i {
+        font-size: 60px;
+        animation: fadeIn .9s infinite linear;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            top: 60%;
+            opacity: 0;
+        }
+
+        100% {
+            top: 90%;
+            opacity: 1;
+        }
+    }
+
+  
+
+    /* my skkill part */
+
+    #my-skills .right .img {
+        height: 350px;
+    }
+
+    #my-skills .right .img img {
+        width: 100%;
+    }
+
+    #my-skills .left .progressbar {
+        margin-bottom: 25px;
+    }
+
+  
+
+
+    /* counter-part start */
+
+    .totl .lay .client .it h3 {
+        font-size: 30px;
+    }
+
+    .totl .lay .client .it {
+
+        margin-top: 20px;
+
+    }
+    .totl .lay .client .it p{
+        letter-spacing: 0;
+        font-size: 13px;
+    }
+
+    /* my footer part */
+
+    .contact_section h2 {
+        margin-top: 40px;
+    }
+
+    #footer-part .footer .copyright .faruk {
+        text-align: center;
+    }
+
+    #footer-part .footer .copyright p {
+        text-align: center;
+    }
+
+    #footer-part .footer .copyright .faruk .border-lft,
+    #footer-part .footer .copyright .faruk a i {
+        border: 0;
+    }
+
+      /* back to top */
+
+      .btop{
+        bottom: 5px;
+        right: 10px;
+      }
+
+    /* pricing part end */
 }
 
-/* navbar part end */
 
 
- /* about-part start */
- 
- 
- #about-part {
-     padding-top: 80px;
- }
-#about-part .text p{
-    width: auto;
-}
-
- /* about-part end */
- 
- /* class-part stqrt */
-
- #class-part .colorful-tab-content ul li:hover {
-    background: #e23e38;
-    transform: scale(1.02);
-}
- /* class-part end */
- /* sponser-part start */
- #sponsor-part .prev{
-     left: -12px;
- }
- #sponsor-part .next{
-     right: -12px;
- }
- /* sponser-part end */
- /* footer-part start */
- #footer-part .img img {
-    width: 23%;
-}
-#footer-part .twit p{
-    width: auto;
-}
-
- /* footer-part end */
 
 
-  /* team part start */
-  #our-team .member p{
-      width: auto;
-  }
-  /* team part end */
+@media (min-width:992px) and (max-width:1199px) {
 
+  
 }

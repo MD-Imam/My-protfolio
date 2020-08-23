@@ -1,130 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>gym website practice</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <title>Crystal</title>
+  <!--///////////////google font links cdn///////////////-->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
+  <!--/////////////////////font awsome  icon  4.7//////////////////-->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 
+  <!--////////////css link files //////////////////-->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--bootstrat 4  css link-->
   <link rel="stylesheet" href="css/slick.css">
-  <link rel="stylesheet" href="css/blast.min.css">
+  <!--slick  slider css-->
+  <link rel="stylesheet" href="css/blast.min.css"> <!-- color switcher -->
+  <link rel="stylesheet" href="css/jquery.lineProgressbar.css">
+      <!-- animate css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!--line progessbar css-->
 
-  <link rel="stylesheet" href="css/swiper.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css"> <!-- swiper slider css codes-->
   <link rel="stylesheet" href="css/style.css">
+  <!--all css-->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!--all responsive  css codes-->
 
 
 </head>
- <!-- https://www.000webhost.com/  -->
- <!-- http://www.dot.tk/  -->
+
+<!-- hosting  practise ar jonno -->
+
+<!-- https://www.000webhost.com/  -->
+<!-- http://www.dot.tk/  -->
 
 
 <!-- https://www.facebook.com/groups/creativeit  -->
- <!-- https://www.facebook.com/CreativeITInstitute/  -->
-<body data-spy="scroll" data-target=".menu">
+<!-- https://www.facebook.com/CreativeITInstitute/  -->
 
+<body data-spy="scroll" data-target=".menu">
+ 
+  <!-- ////////////////////////////
+             preloader part
+    //////////////////////////// -->
+  <div class="preloader"></div>
+
+
+  <!-- ////////////////////////////
+             preloader part
+    //////////////////////////// -->
 
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                navbar part start
-    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            -->
-    <header class="topper">
-      <nav class="navbar navbar-expand-lg menu noo">
-        <div class="container">
-          <a class="navbar-brand tmi" href="#">
-            <h2>CRYSTAL</h2>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item ">
-                <a class="nav-link active" href="#banner-part">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#about-part">About us</a>
-              </li>
-             
-              <li class="nav-item">
-                <a class="nav-link" href="#gallery-part">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#our-team">Team</a>
-              </li>
-             
-              <li class="nav-item">
-                <a class="nav-link" href="#testimonial">Testimonial</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#class-part">Plans</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#footer-part">Contact</a>
-              </li>
-            </ul>
-    
-          </div>
+    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  <header class="topper">
+    <nav class="navbar navbar-expand-lg menu noo wow fadeInDown">
+      <div class="container">
+        <a class="navbar-brand tmi" href="#">
+          <h2>CRYSTAL</h2>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item ">
+              <a class="nav-link active" href="#banner-part">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about-part">About Me</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#ourservice">My Service</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#my-skills">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#my-protfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonial">Testimonial</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer-part">Contact</a>
+            </li>
+          </ul>
+
         </div>
-      </nav>
-     </header>
-      <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+      </div>
+    </nav>
+  </header>
+  <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                  navbar part end
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            -->
 
 
-       <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-                banner part start
-      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            -->
- <section id="banner-part">
-   <div class="banner">
-  <div class="container">
-    <div class="text">
-      <h2 class="text1"> <span class="type"></span> </h2>
-     
-  </div>
-  <a class="btn-grad" style="background-image: linear-gradient(to right, rgba(194, 21, 0,.8) 0%, rgba(255, 197, 0,.8)  51%, rgba(194, 21, 0,.8)  100%);">Learn More</a>
-     <div class="down"><i class="fa fa-angle-double-down" aria-hidden="true"></i></div>
-   </div>
-  </div>
- </section>
+  <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+               banner part start
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  <section id="banner-part">
+    <div class="banner">
+      <div class="container">
+        <div class="text">
+          <h2 class="text1 wow fadeInDown" data-wow-delay=".5s" data-wow-duration="2s"> <span class="type"></span></h2> <!-- type js html -->
+          <p ><span class="wow fadeInDown" data-wow-delay="1.2s" data-wow-duration="2s"> Hello, every one.
+            This is Mr. Imam Hossain.
+            I'm a Web Designer.
+            Thank</span><span class="wow fadeInDown" data-wow-delay="1.4s" data-wow-duration="2s"> you so much for visiting my website And you can contact with me for</span> <span class="wow fadeInDown" data-wow-delay="1.6s" data-wow-duration="2s">any kind of consultationin
+              web design and Web design related topics.</span><span class="wow fadeInDown" data-wow-delay="1.8s" data-wow-duration="2s">
+              You can knock me at any time.
+              I'm dedicated and open minded for all</span><span class="wow fadeInDown" data-wow-delay="2s" data-wow-duration="2s"> And available 24/7 in online.
+              Best of luck.
+              Thanks again.</span>
+          </p>
+
+        </div>
+
+        <div class="bst-button">
+        <a href="#ourservice"><button type="button" class="tuna  first-button wow fadeInDown" data-wow-delay="2.4s" data-wow-duration="2s"><span class=" tuni">Read More</span></button></a>
+        <a href="#my-protfolio"><button type="button" class="tuna wow fadeInDown" data-wow-delay="2.8s" data-wow-duration="2s"><span class="tuni">View More</span></button></a>
+        </div>
+        <div class="down"><a href="#about-part"><i class="fa fa-angle-double-down" aria-hidden="true"></i></a></div>
+      </div>
+    </div>
+  </section>
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 banner part end
-      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            -->
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 about part end
-      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            -->
-      <section id="about-part" class="about">
-        <div class="title">
-          <h2>About Me</h2>
-         </div>
-       <div class="container">
-         <div class="row">
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
+  <section id="about-part" class="about">
+    <div class="title">
+      <h2 class="wow fadeInDown" data-wow-duration="2s">About Me</h2>
+    </div>
+    <div class="container">
+      <div class="row">
         <div class="col-lg-6 left">
-        <div class="title1">
-         <h2> Who i am?</h2>
-        </div>
-        <div class="text">
-          <p>
-I'm Mr. IMAM HOSSAIN. Who is full stack developer since few years. Are you looking for a best Web designer ? Be cool and don't be worried about your expectation. You are in the right place and I'm here... I'm able to provide your max satisfaction. Because I had been working for two years in this sector with professional mentality and full mind concentration.There are several previous clients are to much satisfied and happy with my service. My previous projects are here, you are welcome to visit My Projects.</p>
-<p>
-  Client satisfaction is my dream, duty and responsibilities that's why I'm always dedicated to my client.
-  I am promised to meat Your Heigh-est satisfaction. Finally. I hope you will be happy to work with me.Thank you so much for exploring me .</p>
-  
-  
+          <div class="title1">
+            <h2 class="wow fadeInLeft" data-wow-delay=".5s" data-wow-duration="2s"> Who i am?</h2>
+          </div>
+          <div class="text">
+            <p class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay=".9s">
+              I'm Mr. IMAM HOSSAIN. Who is full stack developer since few years. Are you looking for a best Web designer
+              ? Be cool and don't be worried about your expectation. You are in the right place and I'm here... I'm able
+              to provide your max satisfaction. Because I had been working for two years in this sector with
+              professional mentality and full mind concentration.There are several previous clients are to much
+              satisfied and happy with my service. My previous projects are here, you are welcome to visit My Projects.
+            </p>
+            <p  class="wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1.3s">
+              Client satisfaction is my dream, duty and responsibilities that's why I'm always dedicated to my client.
+              I am promised to meat Your Heigh-est satisfaction. Finally. I hope you will be happy to work with me.Thank
+              you so much for exploring me .</p>
 
-<!-- I'm providing following services as a full stack developer ...........
+
+
+            <!-- I'm providing following services as a full stack developer ...........
 1. Front-end:
 PSD to HTML, Update previous design and so on....
 2. Back-end
@@ -133,8 +178,8 @@ Finally. I hope you will be happy to work with me !
 Stay safe, Stay well and be happy every single moment in your daily life.
 Thank you so much for exploring me .
 Developer Mr. Imam Hossain -->
-          
-        </div>
+
+          </div>
 
         </div>
         <div class="col-lg-6 right">
@@ -142,103 +187,144 @@ Developer Mr. Imam Hossain -->
             <img class="about" src="images/hacking-2903156_1920.jpg" alt="">
           </div>
         </div>
-         </div>
-       </div>
-      </section>
+      </div>
+    </div>
+  </section>
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 about part end
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            -->
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 my services part start
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            -->
-      <div id="ourservice">
-        <div class="pattern"></div>
-        <div class="over ov">
-        <div class="title">
-            <h2 class=" os"> My Services</h2>
-        </div>
-        <div class="container">
-          <div class=" t">
-           <div class=" left">
-               <div class="img"><img src="images/our-service-icon-1.png" alt=""></div>
-               <div class="text">
-                   <h1>Responsive  Design</h1>
-                   <p>Make for you any kind of website responsive .It is  very  essential to any company for
-                     acquire business purpose. </p>
-
-               </div>
-               <div class="overlay">
-                   <img src="images/our-service-icon-1.png" alt="">
-                   <p>Responsive  Design</p><a class="arrow" href="#"><i class="fa fa-long-arrow-right"
-                           aria-hidden="true"></i></a>
-
-
-
-               </div>
-           </div>
-           <div class=" left">
-               <div class="img"><img src="images/our-service-icon-2.png" alt=""></div>
-               <div class="text">
-                   <h1>Web Design</h1>
-                   <p>Web design is my passion & my goal is helping business owners to build their online business presence..</p>
-
-               </div>
-               <div class="overlay">
-                   <img src="images/our-service-icon-2.png" alt="">
-                   <p>Web Design</p>
-                   <a class="arrow" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-
-               </div>
-           </div>
-           <div class=" left">
-               <div class="img"><img src="images/our-service-icon-3.png" alt=""></div>
-               <div class="text">
-                   <h1>Psd to Html</h1>
-                   <p>Lorem ipsum dolor sit amet, cot adipisicing elit, sed do eiusmod incididunt ut labore
-                       et dolore Amar sonar Bangla ami tomay.</p>
-
-               </div>
-               <div class="overlay">
-                   <img src="images/our-service-icon-3.png" alt="">
-                   <p>Psd to Html</p><a class="arrow" href="#"><i class="fa fa-long-arrow-right"
-                           aria-hidden="true"></i></a>
-
-
-               </div>
-           </div>     
-           <div class=" left">
-               <div class="img"><img src="images/our-service-icon-2.png" alt=""></div>
-               <div class="text">
-                   <h1>wordpress customization</h1>
-                   <p>I develop any static web site by WORDPRESS. WordPress is the simplest, most popular way to create your own website or blog.</p>
-
-               </div>
-               <div class="overlay">
-                   <img src="images/our-service-icon-2.png" alt="">
-                   <p>wordpress customization</p>
-                   <a class="arrow" href="#"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
-
-               </div>
-           </div>
-          </div>
-
-          <a href="#" class="poran"><span class="imam">READ MORE</span></a>
-        </div>
-     
+  <div id="ourservice">
+    <div class="pattern"></div>
+    <div class="over ov">
+      <div class="title pb-0">
+        <h2 class=" os wow fadeInDown" data-wow-duration="2s"> My Services</h2>
       </div>
+      <div class="container">
+        <div class="row t">
+          <div class="col-lg-4 col-sm-6">
+            <div class=" left wow fadeInUp" data-wow-duration="2s" data-wow-delay=".8s">
+              <div class="img"><img src="images/our-service-icon-3.png" alt=""></div>
+              <div class="text">
+                <h1>Psd to Html</h1>
+                <p>Lorem ipsum dolor sit amet, cot adipisicing elit, sed do eiusmod incididunt ut labore
+                  et dolore Amar sonar Bangla ami tomay.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class=" left wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.1s">
+              <div class="img"><img src="images/our-service-icon-1.png" alt=""></div>
+              <div class="text">
+                <h1>Responsive Design</h1>
+                <p>Make for you any kind of website responsive .It is very essential to any company for
+                  acquire business purpose. </p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class=" left wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.4s">
+              <div class="img"><img src="images/our-service-icon-2.png" alt=""></div>
+              <div class="text">
+                <h1>Web Design</h1>
+                <p>Web design is my passion & my goal is helping business owners to build their online business
+                  presence..</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class=" left wow fadeInUp" data-wow-duration="2s" data-wow-delay="1.7s">
+              <div class="img"><img src="images/imagesw.png" alt=""></div>
+              <div class="text">
+                <h1>wordpress customization</h1>
+                <p>I develop any static web site by wordpress. Wordpress is the simplest, most popular way to create
+                  your own website or blog.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class=" left wow fadeInUp" data-wow-duration="2s" data-wow-delay="2s">
+              <div class="img"><img src="images/rocket.png" alt=""></div>
+              <div class="text">
+                <h1>Update previous design</h1>
+                <p>I update your website design accourding to your direction. It will give you better experience.
+                  Finally, I hope you will be happy to work with me.</p>
+
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <div class=" left wow fadeInUp" data-wow-duration="2s" data-wow-delay="2.3s">
+              <div class="img"><img src="images/gear.png" alt=""></div>
+              <div class="text">
+                <h1>wordpress customization</h1>
+                <p>I develop any static web site by wordpress. Wordpress is the simplest, most popular way to create
+                  your own website or blog.</p>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="btc">
+          <a href="#testimonial" class="poran wow flip" data-wow-duration="2s" data-wow-delay="2.8s"><span class="imam ">READ MORE</span></a>
+      </div>
+        </div>
+      
     </div>
-
-
-
-
+  </div>
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 my services part end
-      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            -->
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+  <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                my skill part start
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+  <section id="my-skills">
+    <div class="over ov">
+      <div class="title">
+        <h2 class=" os wow fadeInDown" data-wow-duration="2s">My Skills</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-sm-6 left">
+            <div class="line-jq">
+              <h2 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay=".5s">HTML5</h2>
+              <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay=".8s" id="html"></div>
+              <h2 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.1s">CSS/CSS3</h2>
+              <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.4s" id="css"></div>
+              <h2 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="1.7s"> jQuery</h2>
+              <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="2s" id="jq"></div>
+              <h2 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="2.3s">Bootstrap</h2>
+              <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="2.6s" id="bootstrap"></div>
+              <h2 class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="2.9s">Javascript</h2>
+              <div class="wow fadeInRight" data-wow-duration="2s" data-wow-delay="3.2s" id="javascript"></div>
+
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-6 right">
+            <div class="img"><img src="images/me.jpg" alt=""></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                my skill part end
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 team part start
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            -->
-<!-- <section id="project-part" class="about">
+  <!-- <section id="project-part" class="about">
   <div class="title max">
     <h2>My Team</h2> 
    </div>
@@ -409,150 +495,161 @@ Developer Mr. Imam Hossain -->
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 team part end
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!            -->
- 
+
   <!-- ==========================================
               protfolio part start
  ========================================== -->
- <section id="my-protfolio">
-  <div class="title danger">
-    <h2>My protfolio</h2>
-  </div>
-  <div class="container">
+  <section id="my-protfolio" class="ov">
+    <div class="title danger">
+      <h2>My protfolio</h2>
+    </div>
+    <div class="container">
       <div class="row">
-          <div class="portfolio-filter">
-              <ul>
-                  <li class="active" data-filter="*">All</li>
-                  <li data-filter=".psdtohtml">psd to html</li>
-                  <li data-filter=".webdesign">web design</li>
-                  <li data-filter=".responsivedesign">responsive design</li>
-                  <li data-filter=".wordpress">wordpress</li>
-              </ul>
-              <div class="row guru">
-                  <div class="col-lg-4 element-item responsivedesign">
-                     <div class="img"> <img src="images/Screenshot_13.png" alt="">
-                    <div class="overlay">
-                      <h2>Eventrox website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div>
-                    </div>
-                  </div>
-                  <div class="col-lg-4 element-item psdtohtml responsivedesign">
-                     <div class="img"> <img src="images/Screenshot_1.png" alt="">
-                     <div class="overlay">
-                      <h2>Gymnasium website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item responsivedesign">
-                    <div class="img"> <img src="images/Screenshot_10.png" alt="">
-                     <div class="overlay">
-                      <h2>Educate website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item responsivedesign">
-                    <div class="img"> <img src="images/Screenshot_14.png" alt="">
-                     <div class="overlay">
-                      <h2>Food website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item responsivedesign">
-                    <div class="img"> <img src="images/Screenshot_8.png" alt="">
-                     <div class="overlay">
-                      <h2>Bizzency website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item wordpress psdtohtml">
-                    <div class="img"> <img src="images/Screenshot_9.png" alt="">
-                     <div class="overlay">
-                      <h2>My protfolio website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item webdesign psdtohtml">
-                    <div class="img"> <img src="images/Screenshot_3.png" alt="">
-                     <div class="overlay">
-                      <h2>Gyan website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item webdesign wordpress psdtohtml">
-                    <div class="img"> <img src="images/Screenshot_4.png" alt="">
-                     <div class="overlay">
-                      <h2>Hunt website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item webdesign psdtohtml">
-                    <div class="img"> <img src="images/Screenshot_5.png" alt="">
-                     <div class="overlay">
-                      <h2>Beatls website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item webdesign">
-                    <div class="img"> <img src="images/Screenshot_2.png" alt="">
-                     <div class="overlay">
-                      <h2>Appon website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item webdesign">
-                    <div class="img"> <img src="images/Screenshot_11.png" alt="">
-                     <div class="overlay">
-                      <h2>Fashion website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item webdesign">
-                    <div class="img"> <img src="images/Screenshot_12.png" alt="">
-                     <div class="overlay">
-                      <h2>Protfolio website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-
-
-                  
-                  <div class="col-lg-4 element-item wordpress">
-                    <div class="img"> <img src="images/Screenshot_6.png" alt="">
-                     <div class="overlay">
-                      <h2>Valintina website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  <div class="col-lg-4 element-item wordpress">
-                    <div class="img"> <img src="images/Screenshot_7.png" alt="">
-                     <div class="overlay">
-                      <h2>Syrah website </h2>
-                      <p>Design</p>
-                     <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
-                    </div></div>
-                  </div>
-                  
-                 
+        <div class="portfolio-filter">
+          <ul>
+            <li class="active" data-filter="*">All</li>
+            <li data-filter=".psdtohtml">psd to html</li>
+            <li data-filter=".webdesign">web design</li>
+            <li data-filter=".responsivedesign">responsive design</li>
+            <li data-filter=".wordpress">wordpress</li>
+          </ul>
+          <div class="row guru">
+            <div class="col-lg-4 col-sm-6 element-item responsivedesign">
+              <div class="img"> <img src="images/Screenshot_13.png" alt="">
+                <div class="overlay">
+                  <h2>Eventrox website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/Eventrox/"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
               </div>
-          </div>
-      </div>
-  </div>
-</section>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item psdtohtml responsivedesign">
+              <div class="img"> <img src="images/Screenshot_1.png" alt="">
+                <div class="overlay">
+                  <h2>Gymnasium website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/gym/"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item responsivedesign">
+              <div class="img"> <img src="images/Screenshot_10.png" alt="">
+                <div class="overlay">
+                  <h2>Educate website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/Educational/"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item responsivedesign">
+              <div class="img"> <img src="images/Screenshot_14.png" alt="">
+                <div class="overlay">
+                  <h2>Food website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/Food-Area/."><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item responsivedesign">
+              <div class="img"> <img src="images/Screenshot_8.png" alt="">
+                <div class="overlay">
+                  <h2>Bizzency website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/Bizzency/"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item wordpress psdtohtml">
+              <div class="img"> <img src="images/Screenshot_9.png" alt="">
+                <div class="overlay">
+                  <h2>My protfolio website </h2>
+                  <p>Design</p>
+                  <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item webdesign psdtohtml">
+              <div class="img"> <img src="images/Screenshot_3.png" alt="">
+                <div class="overlay">
+                  <h2>Gyan website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/Gyan-1/."><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item webdesign wordpress psdtohtml">
+              <div class="img"> <img src="images/Screenshot_4.png" alt="">
+                <div class="overlay">
+                  <h2>Hunt website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/Hunt-1/"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item webdesign psdtohtml">
+              <div class="img"> <img src="images/Screenshot_5.png" alt="">
+                <div class="overlay">
+                  <h2>Beatls website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/Beatls/."><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item webdesign">
+              <div class="img"> <img src="images/Screenshot_2.png" alt="">
+                <div class="overlay">
+                  <h2>Appon website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/Appon-app-landing-page/."><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item webdesign">
+              <div class="img"> <img src="images/Screenshot_11.png" alt="">
+                <div class="overlay">
+                  <h2>Fashion website </h2>
+                  <p>Design</p>
+                  <a href="#"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item webdesign">
+              <div class="img"> <img src="images/Screenshot_12.png" alt="">
+                <div class="overlay">
+                  <h2>Protfolio website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/basic-portfolio-1.0/."><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
 
- 
+            <div class="col-lg-4 col-sm-6 element-item wordpress">
+              <div class="img"> <img src="images/Screenshot_6.png" alt="">
+                <div class="overlay">
+                  <h2>Valintina website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/valentine/. "><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6 element-item wordpress">
+              <div class="img"> <img src="images/Screenshot_7.png" alt="">
+                <div class="overlay">
+                  <h2>Syrah website </h2>
+                  <p>Design</p>
+                  <a href="https://md-imam.github.io/Syrah-1/"><i class="fa fa-search-plus" aria-hidden="true"></i></a>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
 
   <!-- ==========================================
               protfolio part end
@@ -560,129 +657,200 @@ Developer Mr. Imam Hossain -->
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 testimonial part start
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!  -->
-      <section class="testimonial_section" id="testimonial" >
-        <div class="pattern"></div>
-        <div class="over od">
-        <div class="container">
-          <div class="title">
-            <h2>Client Feedback</h2> 
-           </div>
-          <div class="row">
-            <div class="col-lg-12 test_content demo">
+  <section class="testimonial_section " id="testimonial">
+    <div class="pattern"></div>
+    <div class="over ov">
+      <div class="container ">
+        <div class="title">
+          <h2>Client Feedback</h2>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 test_content demo">
+
+            <div class="slider_item">
+              <div class="test_img">
+                <img src="images/client.jpg" alt="Image">
+              </div>
+              <h1>Dannish Ivy</h1>
+              <div class="test">
+                <i class="fa fa-quote-left quote" aria-hidden="true"></i>
+                <div class="star-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Atihar's communication and work is very good. He managed to follow the instructions I gave well and change things as and how I wanted them.</p>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="test_img">
+                <img src="images/teacher2.png" alt="Image">
+
+              </div>
+              <h1>Emma</h1>
+              <div class="test">
+                <i class="fa fa-quote-left quote" aria-hidden="true"></i>
+                <div class="star-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                </div>
+                <p>Mahir is a very skillful and hard worker. Always willing to put in extra time and go the extra mile to deliver good quality. I've been very pleased with everything he's done thus far.</p>
               
-                <div class="slider_item">
-                  <div class="test_img">
-                    <img src="images/client.jpg" alt="Image">
-                  </div>
-                  <h1>Dannish Ivy</h1>
-                  <div class="test"> 
-                    <h2>Lorem ipsum dolor sit amet consectetur </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex, cumque esse repellat placeat praesentium doloribus excepturi, aut suscipit, quod voluptate assumenda iure facere quisquam sint harum cupiditate at! Ullam?</p>
-                  </div>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="test_img">
+                <img src="images/by2.png" alt="Image">
+
+              </div>
+              <h1>Olivia</h1>
+              <div class="test">
+                <i class="fa fa-quote-left quote" aria-hidden="true"></i>
+                <div class="star-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
                 </div>
-                <div class="slider_item">
-                  <div class="test_img">
-                    <img src="images/client2.jpg" alt="Image">
-                    
-                  </div>
-                  <h1>Emma</h1>
-                  <div class="test"> 
-                    <h2>Lorem ipsum dolor sit amet consectetur </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex, cumque esse repellat placeat praesentium doloribus excepturi, aut suscipit, quod voluptate assumenda iure facere quisquam sint harum cupiditate at! Ullam?</p>
-                  </div>
+                <p>Outstanding experience with Nazmul, was a pleasure to work with him on my site. I'm always felt that Nazmul knows what I wanted. At the beginning I was not realy sure what's all possible, he was just amazing and very patient with me :) Just fantastic, realy for my next page I'll choose Nazmul again. Would give him 6 stars if possible !!!</p>
+              </div>
+            </div>
+            <div class="slider_item">
+              <div class="test_img">
+                <img src="images/teacher4.png" alt="Image">
+              </div>
+              <h1>Amelia</h1>
+              <div class="test">
+                <i class="fa fa-quote-left quote" aria-hidden="true"></i>
+                <div class="star-icon">
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
+                  <i class="fa fa-star" aria-hidden="true"></i>
                 </div>
-                <div class="slider_item">
-                  <div class="test_img">
-                    <img src="images/client3.jpg" alt="Image">
-                    
-                  </div>
-                  <h1>Olivia</h1>
-                  <div class="test"> 
-                    <h2>Lorem ipsum dolor sit amet consectetur </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex, cumque esse repellat placeat praesentium doloribus excepturi, aut suscipit, quod voluptate assumenda iure facere quisquam sint harum cupiditate at! Ullam?</p>
-                  </div>
-                </div>
-                <div class="slider_item">
-                  <div class="test_img">
-                    <img src="images/client4.jpg" alt="Image">              
-                  </div>
-                  <h1>Amelia</h1>
-                  <div class="test"> 
-                    <h2>Lorem ipsum dolor sit amet consectetur </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti ex, cumque esse repellat placeat praesentium doloribus excepturi, aut suscipit, quod voluptate assumenda iure facere quisquam sint harum cupiditate at! Ullam?</p>
-                  </div>
-                </div>
-              </div>  
+                <p>Great experience. Engaged freelancer even though it was a small project. Quickly delivered and interested even though there were small script problems. Thanks for your help. Would use again.</p>
+              </div>
             </div>
           </div>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 testimonial part end
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                counter  part end
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+
+  <div class="totl ov">
+    <div class="lay">
+      <div class="container">
+        <div class="row client">
+          <div class="col-lg-3 col-md-3 countist">
+            <div class="it">
+              <h3 class="num counter">210</h3>
+              <p>Total Clients</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 countist">
+            <div class="it">
+              <h3 class="num counter">190</h3>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 countist">
+            <div class="it">
+              <h3 class="num counter">228</h3>
+              <p>Complete Project</p>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 countist">
+            <div class="it">
+              <h3 class="num counter">5987</h3>
+              <p>Line of code</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                counter  part end
+      !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
+  <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 footer part start
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
-<section id="footer-part">
-  <div class="footer">
-    <div class="title tt2">
-      <h2>Contact Me</h2> 
-     </div>
-    <div class="container">
-      <div class="row">
-    <div class="col-lg-5 left">
-      
-    <h2>Have a project or an idea you'd like to collaborate with Me? Let's get in touch...!</h2>
-      <a href="#"><i class="fa fa-phone" aria-hidden="true"></i> 01989684494</a>
-      <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i> md.imam44788@gmail.com</a>
-      <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>47,no  rnd road, Dhaka</a>
-    </div>
-    <div class="col-lg-7">
-      <div class="contact_section">
-        <h2>Send Me a message</h2>
-        <form>
-         <div class="row">
-           <div class="col-md-6 col-sm-12">
-             <input type="text" placeholder="Name" required>
-           </div>
-           <div class="col-md-6 col-sm-12">
-             <input type="email" placeholder="Email" required>
-           </div>
-         </div>
-         <div class="row">
-           <div class="col-md-12">
-             <textarea name="" id=""  placeholder="Your Message" required></textarea>
-             <button type="reset" class="tuna"><span class="tuni">reset</span></button>
-             <button type="submit" class="tuna"><span class="tuni">send</span></button>   
-           </div>
-         </div>
-        </form>
-  </div>
-    </div>
-  </div>
-  <div class="copyright">
-    <div class="container">
-        <div class="row copy">
-            <div class="col-lg-6">
-                <p>Copyright © 2020. All rights are reserved <span>CRYSTAL</span></p>
+  <a class="btop toLoad loadedContent" href="#"> <i class="fa fa-angle-up" aria-hidden="true"></i></a>
+  <section id="footer-part" class="ov">
+    <div class="footer">
+      <div class="title tt2">
+        <h2>Contact Me</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 left">
+
+            <h2>Have a project or an idea you'd like to collaborate with Me? Let's get in touch...!</h2>
+            <a><i class="fa fa-phone" aria-hidden="true"></i> 01989684494</a>
+            <a><i class="fa fa-envelope" aria-hidden="true"></i> md.imam44788@gmail.com</a>
+            <a><i class="fa fa-map-marker" aria-hidden="true"></i>47,no rnd road, Dhaka</a>
+          </div>
+          <div class="col-lg-7">
+            <div class="contact_section">
+              <h2>Send Me a message</h2>
+              <form>
+                <div class="row">
+                  <div class="col-md-6 col-sm-12">
+                    <input type="text" placeholder="Name" required>
+                  </div>
+                  <div class="col-md-6 col-sm-12">
+                    <input class="mail" type="email" placeholder="Email" required>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-md-12">
+                    <textarea name="" id="" placeholder="Your Message" required></textarea>
+                    <button type="reset" class="tuna"><span class="tuni">reset</span></button>
+                    <button type="submit" class="tuna"><span class="tuni">send</span></button>
+                  </div>
+                </div>
+              </form>
             </div>
-            <div class="col-lg-6">
-           <div class="sohag">
-            <div class="faruk">
-                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>        
-              </div>
-           </div>
-            </div>
+          </div>
         </div>
+        <div class="copyright">
+          <div class="container">
+            <div class="row copy">
+              <div class="col-lg-6 col-md-7 devided">
+                <p>Copyright © 2020. All rights are reserved <span>CRYSTAL</span></p>
+              </div>
+              <div class="col-lg-6 col-md-5 devided">
+
+                <div class="faruk">
+                  <a class="border-lft" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  <a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-</div>
-  </div>
-  </div>
-</section>
+  </section>
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
                 footer part end
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
@@ -690,30 +858,30 @@ Developer Mr. Imam Hossain -->
               color-change plugin
       !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 
-      <div class="blast-box">
-        <div class="blast-icon"  data-blast="bgColor" ><i class="fa fa-cog" aria-hidden="true"></i> </div>
-        <div class="blast-frame">
-          <p>change colors</p>
-          <div class="blast-colors">
-            <div class="blast-color">#3D261A</div>
-            <div class="blast-color">#B6B254</div>
-            <div class="blast-color">#6B2E56</div>
-            <div class="blast-color">#48A871</div>
-            <div class="blast-color">#2D1D44</div>
-            <div class="blast-color">#3F4E92</div>
-            <div class="blast-color">#FFCB2F</div>
-            <div class="blast-color">#F5005E</div>
-            <div class="blast-color">#916E30</div>
-            <div class="blast-color">#03d5ff</div>
-            <div class="blast-color">#018dff</div>
-            <div class="blast-color">#216348</div>
-            <div class="blast-color">#3B3B3B</div>
-            <div class="blast-color">rgba(255, 255, 255,.0)</div>
-          </div>
-          <p class="blast-custom-colors">Custom colors</p>
-          <input type="color" name="blastCustomColor" value="#cf2626" placeholder="color code...">
-        </div>
+  <div class="blast-box">
+    <div class="blast-icon" data-blast="bgColor"><i class="fa fa-cog" aria-hidden="true"></i> </div>
+    <div class="blast-frame">
+      <p>change colors</p>
+      <div class="blast-colors">
+        <div class="blast-color">#fff</div>
+        <div class="blast-color">#B6B254</div>
+        <div class="blast-color">#6B2E56</div>
+        <div class="blast-color">#48A871</div>
+        <div class="blast-color">#2D1D44</div>
+        <div class="blast-color">#3F4E92</div>
+        <div class="blast-color">#FFCB2F</div>
+        <div class="blast-color">#F5005E</div>
+        <div class="blast-color">#916E30</div>
+        <div class="blast-color">#03d5ff</div>
+        <div class="blast-color">#018dff</div>
+        <div class="blast-color">#216348</div>
+        <div class="blast-color">#3B3B3B</div>
+        <div class="blast-color">rgba(255, 255, 255,.0)</div>
       </div>
+      <p class="blast-custom-colors">Custom colors</p>
+      <input type="color" name="blastCustomColor" value="#cf2626" placeholder="color code...">
+    </div>
+  </div>
 
   <!-- !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
              color-change plugin
@@ -723,30 +891,37 @@ Developer Mr. Imam Hossain -->
 
 
 
-  <script src="js/jquery-1.12.4.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/waypoints.min.js"></script>
-  <script src="js/jquery.counterup.min.js"></script>
-  <script src="js/blast.min.js"></script>
-  <script src="js/isotope.min.js"></script>
-  <script src="js/typed.js"></script>
-  <script src="js/swiper.min.js"></script>
-  <script src="js/jquery.ripples-min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/jquery-1.12.4.min.js"></script><!--jquery  version-->
+  
+  <script src="js/popper.min.js"></script> <!-- bootstrap link-->
+
+  <script src="js/bootstrap.min.js"></script> <!-- bootstrap link-->
+
+  <script src="js/slick.min.js"></script> <!--slick sllider-->
+
+  <script src="js/wow.min.js"></script> <!--wow js-->
+
+  <script src="js/waypoints.min.js"></script> <!--conter up js-->
+
+  <script src="js/jquery.counterup.min.js"></script> <!--conter up js-->
+
+  <script src="js/blast.min.js"></script> <!-- color switcher -->
+
+  <script src="js/jquery.lineProgressbar.js"></script><!--line progess bar-->
+
+  <script src="js/isotope.min.js"></script> <!-- isotope tab-->
+
+  <script src="js/typed.js"></script> <!-- type.js -->
+
+  <script src="js/swiper.min.js"></script> <!-- swiper slider -->
+
+  <script src="js/jquery.ripples-min.js"></script> <!-- water ripple -->
+
+  <script src="js/script.js"></script> <!-- js all codes-->
+
 
 
 
 </body>
 
 </html>
-
-
-
-
-
-
-
-
-
